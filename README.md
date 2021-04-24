@@ -1,3 +1,4 @@
 React, Typescript, Chakra UIを使用
 
-後ほどマークダウン形式にする予定
+＜リファクタリング予定＞
+・ヘッダー：HomeヘージとCareerDatailページでハンバーガーメニュー有無でheightが変わっている
