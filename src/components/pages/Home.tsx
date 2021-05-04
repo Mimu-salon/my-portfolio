@@ -5,6 +5,7 @@ import { Profile } from '../organisms/Home/Profile';
 import { HeroImage } from '../organisms/Home/HeroImage';
 import { Carrer } from '../organisms/Home/Career';
 import { SkillsPortfolio } from '../organisms/Home/SkillsPortfolio';
+import { Footer } from '../organisms/layout/footer/Footer';
 
 export const Home: VFC = memo(() => {
   return (
@@ -14,6 +15,7 @@ export const Home: VFC = memo(() => {
       <Profile />
       <Carrer />
       <SkillsPortfolio />
+      <Footer />
     </>
   );
 });
