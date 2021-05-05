@@ -13,7 +13,9 @@ export const Carrer: VFC = memo(() => {
 
   return (
     <>
+    <Box id="carrer">
       <HeadingRayout>Carrer</HeadingRayout>
+    </Box>
       <Box maxW='1000px' m='auto' p={6}>
         <Stack spacing={4} textAlign='center'>
           <Heading fontSize={{ base: 'lg', md: '2xl' }}>キャリア見出し</Heading>

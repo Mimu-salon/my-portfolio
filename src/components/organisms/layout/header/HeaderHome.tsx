@@ -1,6 +1,7 @@
 import { memo, VFC } from 'react';
 import { Box, Flex, Link } from '@chakra-ui/layout';
 import { useDisclosure } from '@chakra-ui/hooks';
+import { NavHashLink } from 'react-router-hash-link';
 
 import { NavigationIconButton } from '../../../atoms/button/NavigationIconButton';
 import { NavigationDrawer } from '../../../molecules/NavigationDrawer';
@@ -13,13 +14,19 @@ export const HeaderHome: VFC = memo(() => {
     <HeaderTemplate>
       <Flex align='center' fontSize='sm' flexGrow={2} display={{ base: 'none', md: 'flex' }}>
         <Box pr={4}>
-          <Link>Proflle</Link>
+          <NavHashLink smooth activeStyle={{ fontWeight: 'bold' }} to={'/#proflle'}>
+            Proflle
+          </NavHashLink>
         </Box>
         <Box pr={4}>
-          <Link>Carrer</Link>
+          <NavHashLink smooth activeStyle={{ fontWeight: 'bold' }} to={'/#carrer'}>
+            Carrer
+          </NavHashLink>
         </Box>
         <Box pr={4}>
-          <Link>Skills/Portfolio</Link>
+          <NavHashLink smooth activeStyle={{ fontWeight: 'bold' }} to={'/#skills-portfolio'}>
+            Skills/Portfolio
+          </NavHashLink>
         </Box>
         <Link>Contact</Link>
       </Flex>

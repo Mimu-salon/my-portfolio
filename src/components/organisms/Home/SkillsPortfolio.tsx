@@ -7,13 +7,15 @@ import { HeadingRayout } from '../../molecules/HeadingRayout';
 export const SkillsPortfolio: VFC = memo(() => {
   return (
     <>
-      <HeadingRayout>Skills and Portfolio</HeadingRayout>
+      <Box id="skills-portfolio">
+        <HeadingRayout>Skills and Portfolio</HeadingRayout>
+      </Box>
       <Box maxW='500px' m='auto' p={6}>
         <Stack spacing={4}>
           <Heading textAlign='center' fontSize={{ base: 'lg', md: '2xl' }}>
             - スキル -
           </Heading>
-          <Text color="gray">
+          <Text color='gray'>
             言語：Javascript、Typescript、HTML、CSS
             <br />
             フレームワーク：React、Next.js

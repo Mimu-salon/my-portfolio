@@ -6,7 +6,9 @@ import { HeadingRayout } from '../../molecules/HeadingRayout';
 export const Profile: VFC = memo(() => {
   return (
     <>
-      <HeadingRayout>Profile</HeadingRayout>
+      <Box id='profile'>
+        <HeadingRayout>Profile</HeadingRayout>
+      </Box>
       <Box maxW='1000px' m='auto' p={6}>
         <Stack spacing={4} textAlign='center'>
           <Image
