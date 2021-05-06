@@ -6,6 +6,9 @@ import { PrimaryButton } from '../../atoms/button/PrimaryButton';
 import { useHistory } from 'react-router';
 import { CardRayout } from '../../molecules/CardRayout';
 
+import Career1 from '../../../images/carrer1.png';
+import Career2 from '../../../images/carrer2.png';
+
 export const Carrer: VFC = memo(() => {
   const history = useHistory();
 
@@ -13,9 +16,9 @@ export const Carrer: VFC = memo(() => {
 
   return (
     <>
-    <Box id="carrer">
-      <HeadingRayout>Carrer</HeadingRayout>
-    </Box>
+      <Box id='carrer'>
+        <HeadingRayout>Carrer</HeadingRayout>
+      </Box>
       <Box maxW='1000px' m='auto' p={6}>
         <Stack spacing={4} textAlign='center'>
           <Heading fontSize={{ base: 'lg', md: '2xl' }}>キャリア見出し</Heading>
@@ -31,21 +34,21 @@ export const Carrer: VFC = memo(() => {
       <Wrap spacing='30px' justify='center' p={{ base: 4, md: 10 }}>
         <WrapItem>
           <CardRayout
-            title='修士論文'
-            subTitle='再発・難治性●●患者を対象とした●●の第II相臨床試験'
-            imageUrl='https://source.unsplash.com/random'
+            title='大学院修士研究'
+            subTitle='頭頸部癌患者を対象としたビタミンD受容体遺伝子多型による術後予後解析'
+            imageUrl={Career1}
           />
         </WrapItem>
         <WrapItem>
           <CardRayout
-            title='臨床試験①'
+            title='現職：臨床試験①'
             subTitle='再発・難治性●●患者を対象とした●●の第II相臨床試験'
-            imageUrl='https://source.unsplash.com/random'
+            imageUrl={Career2}
           />
         </WrapItem>
         <WrapItem>
           <CardRayout
-            title='臨床試験②'
+            title='現職：臨床試験②'
             subTitle='再発・難治性●●患者を対象とした●●の第II相臨床試験'
             imageUrl='https://source.unsplash.com/random'
           />

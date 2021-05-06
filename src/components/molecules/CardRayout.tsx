@@ -26,7 +26,7 @@ export const CardRayout: VFC<Props> = memo((props) => {
         <Text fontSize='sm' color='gray'>
           {subTitle}
         </Text>
-        <Image borderRadius='10px' w='260px' h='150px' src={imageUrl} alt={subTitle} m='auto' />
+        <Image borderRadius='10px' w='300px' h='150px' src={imageUrl} alt={subTitle} m='auto' />
       </Stack>
     </Box>
   );

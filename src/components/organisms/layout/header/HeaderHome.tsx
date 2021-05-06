@@ -14,7 +14,7 @@ export const HeaderHome: VFC = memo(() => {
     <HeaderTemplate>
       <Flex align='center' fontSize='sm' flexGrow={2} display={{ base: 'none', md: 'flex' }}>
         <Box pr={4}>
-          <NavHashLink smooth activeStyle={{ fontWeight: 'bold' }} to={'/#proflle'}>
+          <NavHashLink smooth activeStyle={{ fontWeight: 'bold' }} to={'/#profile'}>
             Proflle
           </NavHashLink>
         </Box>
