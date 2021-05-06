@@ -1,5 +1,4 @@
-React, Typescript, Chakra UIを使用
+React + Typescript + Chakra UIで作成しました。
 
 ＜リファクタリング予定＞
 ・ヘッダー：HomeヘージとCareerDatailページでハンバーガーメニュー有無でheightが変わっている
-・ヒーローイメージ：フォルダ内のjpegが使用できない

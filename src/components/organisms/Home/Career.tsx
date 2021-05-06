@@ -36,21 +36,24 @@ export const Carrer: VFC = memo(() => {
           <CardRayout
             title='大学院修士研究'
             subTitle='頭頸部癌患者を対象としたビタミンD受容体遺伝子多型による術後予後解析'
-            imageUrl={Career1}
+            image={Career1}
+            imageUrl='https://pubmed.ncbi.nlm.nih.gov/22242137/'
           />
         </WrapItem>
         <WrapItem>
           <CardRayout
             title='現職：臨床試験①'
             subTitle='再発・難治性●●患者を対象とした●●の第II相臨床試験'
-            imageUrl={Career2}
+            image={Career2}
+            imageUrl='https://link.springer.com/article/10.1007%2Fs10637-017-0504-6'
           />
         </WrapItem>
         <WrapItem>
           <CardRayout
             title='現職：臨床試験②'
             subTitle='再発・難治性●●患者を対象とした●●の第II相臨床試験'
-            imageUrl='https://source.unsplash.com/random'
+            image='https://source.unsplash.com/random'
+            imageUrl='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3248455/'
           />
         </WrapItem>
       </Wrap>
