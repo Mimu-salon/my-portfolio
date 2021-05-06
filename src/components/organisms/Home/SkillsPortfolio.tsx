@@ -7,7 +7,7 @@ import { HeadingRayout } from '../../molecules/HeadingRayout';
 export const SkillsPortfolio: VFC = memo(() => {
   return (
     <>
-      <Box id="skills-portfolio">
+      <Box id='skills-portfolio'>
         <HeadingRayout>Skills and Portfolio</HeadingRayout>
       </Box>
       <Box maxW='500px' m='auto' p={6}>
@@ -34,14 +34,16 @@ export const SkillsPortfolio: VFC = memo(() => {
           <CardRayout
             title='My-Portfolio'
             subTitle='React + Typescript + Chakra UIで作成'
-            imageUrl='https://source.unsplash.com/random'
+            image='https://source.unsplash.com/random'
+            imageUrl='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3248455/'
           />
         </WrapItem>
         <WrapItem>
           <CardRayout
             title='未定'
             subTitle='React + Typescript + Chakra UIで作成'
-            imageUrl='https://source.unsplash.com/random'
+            image='https://source.unsplash.com/random'
+            imageUrl='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3248455/'
           />
         </WrapItem>
       </Wrap>
