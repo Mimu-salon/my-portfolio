@@ -26,7 +26,6 @@ export const NavigationDrawer: VFC<Props> = memo((props) => {
             <Button w='100%' as='a' href='/#skills-portfolio'>
               Skills/Portfolio
             </Button>
-            <Button w='100%'>Contact</Button>
           </DrawerBody>
         </DrawerContent>
       </DrawerOverlay>

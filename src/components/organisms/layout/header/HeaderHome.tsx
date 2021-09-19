@@ -1,5 +1,5 @@
 import { memo, VFC } from 'react';
-import { Box, Flex, Link } from '@chakra-ui/layout';
+import { Box, Flex } from '@chakra-ui/layout';
 import { useDisclosure } from '@chakra-ui/hooks';
 import { NavHashLink } from 'react-router-hash-link';
 
@@ -28,7 +28,6 @@ export const HeaderHome: VFC = memo(() => {
             Skills/Portfolio
           </NavHashLink>
         </Box>
-        <Link>Contact</Link>
       </Flex>
       <NavigationIconButton onOpen={onOpen} />
       <NavigationDrawer onClose={onClose} isOpen={isOpen} />

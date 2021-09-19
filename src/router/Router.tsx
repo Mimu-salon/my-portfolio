@@ -8,13 +8,13 @@ import { Page404 } from '../components/pages/Page404';
 export const Router: VFC = memo(() => {
   return (
     <Switch>
-      <Route exact path="/">
+      <Route exact path='/'>
         <Home />
       </Route>
-      <Route path="/carrer_datail">
+      <Route path='/carrer_datail'>
         <CareerDatail />
       </Route>
-      <Route path="*">
+      <Route path='*'>
         <Page404 />
       </Route>
     </Switch>
