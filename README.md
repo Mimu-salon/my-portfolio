@@ -1,4 +1,4 @@
-React + Typescript + Chakra UIで作成しました。
+React + Typescript + Chakra UI で作成しました。
 
 ＜リファクタリング予定＞
-・ヘッダー：HomeヘージとCareerDatailページでハンバーガーメニュー有無でheightが変わっている
+・ヘッダー：Home ヘージと CareerDatail ページでハンバーガーメニュー有無で height が変わっている
