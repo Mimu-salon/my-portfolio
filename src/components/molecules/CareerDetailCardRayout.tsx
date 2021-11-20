@@ -6,7 +6,7 @@ type Props = {
   children: ReactNode;
 };
 
-export const CareerDatailCardRayout: VFC<Props> = memo((props) => {
+export const CareerDetailCardRayout: VFC<Props> = memo((props) => {
   const { children } = props;
   return (
     <Box

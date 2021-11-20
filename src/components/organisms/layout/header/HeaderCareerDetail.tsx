@@ -3,6 +3,6 @@ import { memo } from "react";
 
 import { HeaderTemplate } from "./HeaderTemplate";
 
-export const HeaderCareerDatail: VFC = memo((layout) => {
+export const HeaderCareerDetail: VFC = memo((layout) => {
   return <HeaderTemplate>{layout.children}</HeaderTemplate>;
 });

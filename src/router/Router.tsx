@@ -1,10 +1,10 @@
-import type { VFC } from "react";
-import { memo } from "react";
-import { Route, Switch } from "react-router";
+import type { VFC } from 'react';
+import { memo } from 'react';
+import { Route, Switch } from 'react-router';
 
-import { CareerDatail } from "../components/pages/CareerDatail";
-import { Home } from "../components/pages/Home";
-import { Page404 } from "../components/pages/Page404";
+import { CareerDetail } from '../components/pages/CareerDetail';
+import { Home } from '../components/pages/Home';
+import { Page404 } from '../components/pages/Page404';
 
 export const Router: VFC = memo(() => {
   return (
@@ -12,8 +12,8 @@ export const Router: VFC = memo(() => {
       <Route exact path="/">
         <Home />
       </Route>
-      <Route path="/carrer_datail">
-        <CareerDatail />
+      <Route path="/carrer_detail">
+        <CareerDetail />
       </Route>
       <Route path="*">
         <Page404 />
