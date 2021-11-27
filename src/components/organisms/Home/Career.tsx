@@ -4,6 +4,7 @@ import { memo, useCallback } from 'react';
 import { useHistory } from 'react-router';
 
 import Career1 from '../../../images/carrer1.png';
+import Career2 from '../../../images/carrer2.png';
 import { PrimaryButton } from '../../atoms/button/PrimaryButton';
 import { CardRayout } from '../../molecules/CardRayout';
 import { HeadingRayout } from '../../molecules/HeadingRayout';
@@ -44,7 +45,7 @@ export const Carrer: VFC = memo(() => {
           <CardRayout
             title="治験2"
             subTitle="胆道癌患者を対象としたS-1 + Resminostat併用療法の第II相臨床試験"
-            image="https://source.unsplash.com/random"
+            image={Career2}
             imageUrl="https://pubmed.ncbi.nlm.nih.gov/33635605/"
           />
         </WrapItem>
