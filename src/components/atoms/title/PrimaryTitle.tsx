@@ -10,7 +10,7 @@ export const PrimaryTitle: VFC<Props> = memo((props) => {
   const { children } = props;
   return (
     <Text
-      fontSize="lg"
+      fontSize={{ base: 'md', md: 'lg' }}
       fontWeight="bold"
       borderLeft="solid"
       borderColor="blue.300"
