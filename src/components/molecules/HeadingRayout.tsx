@@ -15,11 +15,11 @@ export const HeadingRayout: VFC<Props> = memo((props) => {
       textAlign="center"
       p={5}
       lineHeight="1.4"
-      color="#ff6a6a"
+      color="blue.400"
       borderTop="dotted 1px gray"
       borderBottom="dotted 1px gray"
-      fontSize={{ base: '3xl', md: '5xl' }}
-      bg="#fffff4">
+      fontSize={{ base: '2xl', md: '4xl' }}
+      bg="gray.200">
       <ArrowRightIcon pr={2} />
       {children}
     </Heading>
